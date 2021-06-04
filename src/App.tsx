@@ -13,8 +13,8 @@ function App() {
   }
   // return <Greetings name="Hello" onClick={onClick} />;
   // return <Counter></Counter>
-  // return <MyForm onSubmit={onSubmit}></MyForm>
-  return <ReducerSample></ReducerSample>
+  return <MyForm onSubmit={onSubmit}></MyForm>
+  // return <ReducerSample></ReducerSample>
 };
 
 export default App;
