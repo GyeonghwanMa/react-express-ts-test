@@ -6,6 +6,7 @@ import ReducerSample from './ReducerSample';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 import { TodosContextProvider } from './contexts/TodosContext';
+import CounterContainer from './containers/CounterContainer';
 
 
 function App() {
@@ -20,10 +21,12 @@ function App() {
   // return <MyForm onSubmit={onSubmit}></MyForm>
   // return <ReducerSample></ReducerSample>
   return (
-    <TodosContextProvider>
-      <TodoForm></TodoForm>
-      <TodoList></TodoList>
-    </TodosContextProvider>
+    // <TodosContextProvider>
+    //   <TodoForm></TodoForm>
+    //   <TodoList></TodoList>
+    // </TodosContextProvider>
+    // <CounterContainer></CounterContainer>
+    <Counter></Counter>
   )
 };
 
