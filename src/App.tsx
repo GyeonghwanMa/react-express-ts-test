@@ -7,6 +7,7 @@ import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 import { TodosContextProvider } from './contexts/TodosContext';
 import CounterContainer from './containers/CounterContainer';
+import TodoInsert from './components/TodoInsert';
 
 
 function App() {
@@ -26,7 +27,11 @@ function App() {
     //   <TodoList></TodoList>
     // </TodosContextProvider>
     // <CounterContainer></CounterContainer>
-    <Counter></Counter>
+    // <Counter></Counter>
+    <>
+      <TodoInsert></TodoInsert>
+      <TodoList></TodoList>
+    </>
   )
 };
 
